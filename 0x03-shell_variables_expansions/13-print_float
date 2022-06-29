@@ -1,2 +1,2 @@
 #!/bin/bash
-printf %2.2f \\n $NUM
+print %2.2f \\n $NUM
