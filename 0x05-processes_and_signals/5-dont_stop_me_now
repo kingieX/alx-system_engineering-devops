@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# A bash script that stops infinty amd beyond preocess
+
+kill "$(pgrep -f 4-to_infinity_and_beyond)"
