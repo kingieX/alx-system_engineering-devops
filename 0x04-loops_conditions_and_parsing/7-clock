@@ -16,4 +16,3 @@ do
  done
  (( hour++ ))
 done
-Footer
