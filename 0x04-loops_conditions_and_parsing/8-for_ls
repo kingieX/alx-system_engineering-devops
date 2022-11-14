@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # A bash script that displays
 # The content of the current directory
 # Where only the part of the name after the first dash is displayed
