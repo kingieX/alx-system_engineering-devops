@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""A recursive functiom that queries the Reddit API."""
+""" Count it! """
 from requests import get
 
 REDDIT = "https://www.reddit.com/"
@@ -8,10 +8,9 @@ HEADERS = {'user-agent': 'esw1229/0.0.1'}
 
 def count_words(subreddit, word_list, after="", word_dic={}):
     """
-     parses the title of all hot articles, and prints a sorted 
-     count of given keywords (case-insensitive, delimited 
-     by spaces. Javascript should count as javascript, 
-     but java should not).
+    Returns a list containing the titles of all hot articles for a
+    given subreddit. If no results are found for the given subreddit,
+    the function should return None.
     """
     if not word_dic:
         for word in word_list:
